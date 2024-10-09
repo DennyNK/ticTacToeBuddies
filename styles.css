@@ -1,0 +1,22 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 5px;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    display: flex; /* Use flexbox to align content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    border: 2px solid #000; /* Cell border */
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
